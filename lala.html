@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <img src="c:\Users\RURA\Desktop\LEO\img\German Shepherd(1).jpeg">
+   <div class="banner">
+    <div class="navbar">
+        <img src="c:\Users\RURA\Desktop\LEO\img\IMG_7820.jpeg" class="logo">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Login</a></li>
+        </ul>
+    </div>
+    <div class="content">
+        <h1>WELCOME TO ELON'S PET STORE</h1>
+        <p>Subscribe Easy Tutorials Yt chaannel...</p>
+    </div>
+   </div>
+</body>
+</html>
+
+
+<html>
+    <head>
+        <title>About</title>
+        <link rel="stylesheet" href="about.css">
+        
+    </head>
+    <body>
+        <div class="navbar">
+            <img id="img" src="c:\Users\RURA\Desktop\LEO\img\IMG_7820.jpeg" alt="logo">
+            <h1>About Us</h1>
+<p>Welcome to Elon's Pet Store, We are dedicated to here to serve you with <br> 
+    abythinng you might desire to purchase through thi website.</p>
+<h2>Our Values</h2>
+<p>[Value 1]</p>
+<p>[Value 2]</p>
+<h2>Meet the Team</h2>
+        </div>
+        
+    </body>
+</html>
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.logo{
+    width: 120px;
+    cursor: pointer;
+}
+
+
+<h2>Login</h2>
+<form action="/authenticate" method="POST">
+  <label for="username">Username:</label>
+  <input type="text" id="username" name="username" required>
+  
+  <label for="password">Password:</label>
+  <input type="password" id="password" name="password" required>
+  
+  <button type="submit">Login</button>
+</form>
+
+<script>
+    app.post('/authenticate', (req, res) => {
+  const { username, password } = req.body;
+  // Check against database or authentication service
+  if (isValidUser(username, password)) {
+    // Set session or JWT token
+    req.session.user = username;  // Example with session
+    res.redirect('/dashboard');  // Redirect to user dashboard after successful login
+  } else {
+    res.status(401).send('Invalid credentials');
+  }
+});
+
+</script>

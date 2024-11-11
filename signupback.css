@@ -1,0 +1,126 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(American Eskimo dog(2).PNG);
+  }
+  
+
+  .signup-header {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .signup-header h1 {
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .signup-header p {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 30px;
+  }
+  
+
+  .signup-container {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .signup-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .input-group {
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  .input-group label {
+    font-size: 14px;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .input-group input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .signup-button {
+    background-color: #ff6f61; /* Pet-themed orange */
+    color: white;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .signup-button:hover {
+    background-color: #ff4c38;
+  }
+  
+
+  .signup-container .form-actions p {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .signup-container .form-actions a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .signup-container .form-actions a:hover {
+    text-decoration: underline;
+  }
+  
+
+  @media (max-width: 768px) {
+    .signup-container {
+      padding: 30px 20px;
+    }
+  
+    .signup-header h1 {
+      font-size: 28px;
+    }
+  
+    .signup-header p {
+      font-size: 16px;
+    }
+  }
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}  
+  

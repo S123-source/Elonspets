@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact Us - Elon's Pet Store</title>
+    <link rel="stylesheet" href="contactus.css"> 
+    <style type="about.css">
+        body{
+            background-image: url(c:\Users\RURA\Desktop\LEO\img\German Shepherd(1).jpeg);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">         
+        </div>
+
+        <h1>About Us</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="contactus.html">Contact Us</a></li>
+                <li><a href="login.html">Log in</a></li>
+                <li><a href="signup.html">Sign up</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="contact-form">
+        <h2>Get in Touch</h2>
+        <form action="submit_form.php" method="POST"> 
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required>
+    
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required>
+    
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+    
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+    
+    <section id="contact-info">
+        <h2>Our Contact Information</h2>
+        <ul>
+            <li><strong>Phone:</strong> (123) 456-7890</li>
+            <li><strong>Email:</strong> elonspetstore@gmail.com</li>
+            <li><strong>Address:</strong> KG 1233st</li>
+        </ul>
+    </section>
+    
+    <section id="store-location">
+        <h2>Find Us</h2>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d110401.7879440088!2d30.052032513242438!3d-1.9526177720341265!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x19dca4258ed8e797%3A0xf32b36a5411d0bc8!2sKigali!5e0!3m2!1sen!2srw!4v1731238055554!5m2!1sen!2srw"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </section>
+    
+    
+    <footer>
+        <p>&copy; 2024 Elon's Pet Store. All rights reserved.</p>
+        <p>Follow Us: 
+            <a href="https://facebook.com/Elon'spetstore">Facebook</a> |
+            <a href="https://instagram.com/Elon'spetstore">Instagram</a> |
+            <a href="https://twitter.com/Elon'spetstore">Twitter</a>
+        </p>
+    </footer>
+
+    <script>
+        document.getElementById("img").width=300
+        document.getElementById("img").height=200
+    </script>
+    
+</body>
+</html>

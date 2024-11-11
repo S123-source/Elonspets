@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Log in - Elon's Pet Store</title>
+    <link rel="stylesheet" href="login.css"> 
+    <style type="about.css">
+        body{
+            background-image: url(c:\Users\RURA\Desktop\LEO\img\German Shepherd(1).jpeg);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">         
+        </div>
+
+        <h1>Log in</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="contactus.html">Contact Us</a></li>
+                <li><a href="login.html">Log in</a></li>
+                <li><a href="signup.html">Sign up</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>      
+        <div class="login-container">
+            <div class="login-form">
+              <h2>Welcome Back to Elon's Pet Store!</h2>
+              <p>Log in to your account and continue shopping for your furry friends.</p>
+              <form action="/login" method="POST">
+                <div class="input-group">
+                  <label for="email">Email Address</label>
+                  <input type="email" id="email" name="email" required placeholder="Enter your email">
+                </div>
+                <div class="input-group">
+                  <label for="password">Password</label>
+                  <input type="password" id="password" name="password" required placeholder="Enter your password">
+                </div>
+                <button type="submit" class="login-button">Log In</button>
+                <div class="form-links">
+                  <a href="/forgot-password">Forgot your password?</a>
+                  <a href="/register" class="register-link">Create an account</a>
+                </div>
+              </form>
+            </div>
+          </div>        
+    </main>
+
+
+    <footer>
+        <p>&copy; 2024 Elon's Pet Store. All rights reserved.</p>
+        <p>Follow Us: 
+            <a href="https://facebook.com/Elon'spetstore">Facebook</a> |
+            <a href="https://instagram.com/Elon'spetstore">Instagram</a> |
+            <a href="https://twitter.com/Elon'spetstore">Twitter</a>
+        </p>
+    </footer>
+
+    <script>
+        document.getElementById("img").width=300
+        document.getElementById("img").height=200
+    </script>
+    
+</body>
+</html>

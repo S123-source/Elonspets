@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pet Store - Login</title>
+  <link rel="stylesheet" href="login.css">
+</head>
+<body>  
+
+  <div class="login-container">
+    <div class="login-form">
+      <h2>Welcome Back to Elon's Pet Store!</h2>
+      <p>Log in to your account and continue shopping for your furry friends.</p>
+      <form action="/login" method="POST">
+        <div class="input-group">
+          <label for="email">Email Address</label>
+          <input type="email" id="email" name="email" required placeholder="Enter your email">
+        </div>
+        <div class="input-group">
+          <label for="password">Password</label>
+          <input type="password" id="password" name="password" required placeholder="Enter your password">
+        </div>
+        <button type="submit" class="login-button">Log In</button>
+        <div class="form-links">
+          <a href="/forgot-password">Forgot your password?</a>
+          <a href="/register" class="register-link">Create an account</a>
+        </div>
+      </form>
+    </div>
+  </div>
+  <footer>
+    <p>&copy; 2024 Elon's Pet Store. All rights reserved.</p>
+    <p>Follow Us: 
+        <a href="https://facebook.com/Elon'spetstore">Facebook</a> |
+        <a href="https://instagram.com/Elon'spetstore">Instagram</a> |
+        <a href="https://twitter.com/Elon'spetstore">Twitter</a> |
+        <a href="index.html">Home</a> |
+            <a href="about.html">About Us</a> |
+            <a href="shop.html">Shop</a> |
+            <a href="contactus.html">Contact Us</a> |
+            <a href="signup.html">Sign up</a>
+    </p>
+</footer>
+</body>
+</html>

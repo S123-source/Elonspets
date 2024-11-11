@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign Up - Paws & Claws</title>
+  <link rel="stylesheet" href="signupback.css">
+</head>
+<body>
+  <header class="signup-header">
+    <h1>Join the Paws & Claws Family!</h1>
+    <p>Sign up to create an account and start shopping for your furry friends.</p>
+  </header>
+
+  <div class="signup-container">
+    <form action="/submit-signup" method="POST" class="signup-form">
+      <div class="input-group">
+        <label for="fullName">Full Name</label>
+        <input type="text" id="fullName" name="fullName" required placeholder="Enter your full name">
+      </div>
+
+      <div class="input-group">
+        <label for="email">Email Address</label>
+        <input type="email" id="email" name="email" required placeholder="Enter your email">
+      </div>
+
+      <div class="input-group">
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" required placeholder="Create a password">
+      </div>
+
+      <div class="input-group">
+        <label for="confirmPassword">Confirm Password</label>
+        <input type="password" id="confirmPassword" name="confirmPassword" required placeholder="Confirm your password">
+      </div>
+
+      <div class="input-group">
+        <label for="petName">Pet's Name (Optional)</label>
+        <input type="text" id="petName" name="petName" placeholder="What’s your pet’s name?">
+      </div>
+
+      <div class="form-actions">
+        <button type="submit" class="signup-button">Sign Up</button>
+        <p>Already have an account? <a href="/login">Log in here</a></p>
+      </div>
+    </form>
+  </div>
+  <footer>
+    <p>&copy; 2024 Elon's Pet Store. All rights reserved.</p>
+    <p>Follow Us: 
+        <a href="https://facebook.com/Elon'spetstore">Facebook</a> |
+        <a href="https://instagram.com/Elon'spetstore">Instagram</a> |
+        <a href="https://twitter.com/Elon'spetstore">Twitter</a> |
+        <a href="index.html">Home</a> |
+            <a href="about.html">About Us</a> |
+            <a href="shop.html">Shop</a> |
+            <a href="contactus.html">Contact Us</a> |
+            <a href="login.html">Log in</a>
+    </p>
+</footer>
+</body>
+</html>
